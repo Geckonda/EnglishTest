@@ -1,0 +1,102 @@
+[
+    {
+      "original": "Patronymic",
+      "translation": "Отчество"
+    },
+    {
+      "original": "Role",
+      "translation": "Роль"
+    },
+    {
+      "original": "Type",
+      "translation": "Тип"
+    },
+    {
+      "original": "Description",
+      "translation": "Описание"
+    },
+    {
+      "original": "Price",
+      "translation": "Цена"
+    },
+    {
+      "original": "Quantity",
+      "translation": "Количество"
+    },
+    {
+      "original": "Order",
+      "translation": "Заказ"
+    },
+    {
+      "original": "Customer",
+      "translation": "Клиент"
+    },
+    {
+      "original": "Image",
+      "translation": "Изображение"
+    },
+    {
+      "original": "Title",
+      "translation": "Заголовок"
+    },
+    {
+      "original": "Review",
+      "translation": "Отзыв"
+    },
+    {
+      "original": "Location",
+      "translation": "Местоположение"
+    },
+    {
+      "original": "Delivery",
+      "translation": "Доставка"
+    },
+    {
+      "original": "Gender",
+      "translation": "Пол"
+    },
+    {
+      "original": "Link",
+      "translation": "Ссылка"
+    },
+    {
+      "original": "Payment",
+      "translation": "Платеж"
+    },
+    {
+      "original": "Discount",
+      "translation": "Скидка"
+    },
+    {
+      "original": "Tax",
+      "translation": "Налог"
+    },
+    {
+      "original": "Duration",
+      "translation": "Продолжительность"
+    },
+    {
+      "original": "Frequency",
+      "translation": "Частота"
+    },
+    {
+      "original": "Attempt",
+      "translation": "Попытка"
+    },
+    {
+      "original": "Value",
+      "translation": "Значение"
+    },
+    {
+      "original": "Permission",
+      "translation": "Разрешение"
+    },
+    {
+      "original": "Message",
+      "translation": "Сообщение"
+    },
+    {
+      "original": "Supplier",
+      "translation": "Поставщик"
+    }
+  ]

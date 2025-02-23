@@ -1,0 +1,118 @@
+:root{
+    --white: #E6DDFF;
+    --main-dark: #2b2d42;
+    --light-red: #ef233c;
+    --dark-red: #d80032;
+    --middle: #a499b3;
+    --yellow:#DDFF0A;
+    --purple: #714BDC;
+    --light-yellow: #ffff99;
+    --dark-purple: #2F1B68;
+    --dull:#E5D8FF80 50%;
+ }
+ @font-face {
+    font-family: "Nunito";
+    src: url(./fonts/Nunito-VariableFont_wght.ttf);
+   }
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html, body{
+    font-family: "Nunito";
+    width: 100%;
+    height: 100%;
+    background: var(--main-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container
+{
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-transform: uppercase;
+    color: var(--yellow);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+}
+h2{
+    text-align: center;
+    color: var(--yellow);
+}
+#word{
+    background: var(--white);
+    color: var(--dark-purple);
+    padding: 10px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 800;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 24px;
+}
+
+.btn:not(:disabled){
+    display: block;
+    background: var(--purple);
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 0.2s;
+    color: var(--yellow);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: var(--yellow);
+}
+#word-input
+{
+    outline: none;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 24px;
+    color:var(--dark-purple);
+    background: var(--white);
+}
+
+#result-table{
+    display: none;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    background: var(--dark-purple);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    border-radius: 10px;
+    border: 3px solid var(--purple);
+}
+#result-table p{
+    color: var(--white);
+}
+#correct-answers-count
+{
+    color: var(--light-yellow);
+}
+#wrong-answers-count
+{
+    color: var(--dark-red);
+}

@@ -1,0 +1,34 @@
+[
+    {
+      "original": "Patronymic",
+      "translation": "Отчество"
+    },
+    {
+      "original": "Role",
+      "translation": "Роль"
+    },
+    {
+      "original": "Type",
+      "translation": "Тип"
+    },
+    {
+      "original": "Description",
+      "translation": "Описание"
+    },
+    {
+      "original": "Price",
+      "translation": "Цена"
+    },
+    {
+        "original": "Quantity",
+        "translation": "Количество"
+      },
+      {
+        "original": "Order",
+        "translation": "Заказ"
+      },
+      {
+        "original": "Customer",
+        "translation": "Клиент"
+      }  
+]

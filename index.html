@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Тест</h1>
+        <p id="word"></p>
+        <div class="item-box">
+            <input type="text" id="word-input" placeholder="Введите слово">
+        </div>
+        <div class="button-box">
+            <button id="next-btn" class="btn">Следующее</button>
+        </div>
+    </div>
+    <div id="result-table">
+        <h2>Результат</h2>
+        <p>Правильных ответов: <span id="correct-answers-count"></span></p>
+        <p>Неверных ответов: <span id="wrong-answers-count"></span></p>
+        <p>Оценка: <span id="mark"></span></p>
+        <button id="reset-btn" class="btn">Заново</button>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
