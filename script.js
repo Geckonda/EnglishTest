@@ -1,5 +1,5 @@
 let dictionary;
-await fetch('./fl.json')
+await fetch('./data.json')
   .then(response => response.json())
   .then(data => dictionary = data)
   .catch(error => console.error('Ошибка загрузки JSON:', error));
