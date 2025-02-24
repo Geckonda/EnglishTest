@@ -1,102 +1,102 @@
 [
     {
       "original": "Patronymic",
-      "translation": "Отчество"
+      "translations": ["Отчество"]
     },
     {
       "original": "Role",
-      "translation": "Роль"
+      "translations": ["Роль"]
     },
     {
       "original": "Type",
-      "translation": "Тип"
+      "translations": ["Тип"]
     },
     {
       "original": "Description",
-      "translation": "Описание"
+      "translations": ["Описание"]
     },
     {
       "original": "Price",
-      "translation": "Цена"
+      "translations": ["Цена"]
     },
     {
       "original": "Quantity",
-      "translation": "Количество"
+      "translations": ["Количество"]
     },
     {
       "original": "Order",
-      "translation": "Заказ"
+      "translations": ["Заказ"]
     },
     {
       "original": "Customer",
-      "translation": "Клиент"
+      "translations": ["Покупатель", "клиент", "посетитель"]
     },
     {
       "original": "Image",
-      "translation": "Изображение"
+      "translations": ["Изображение", "картинка"]
     },
     {
       "original": "Title",
-      "translation": "Заголовок"
+      "translations": ["Заголовок"]
     },
     {
       "original": "Review",
-      "translation": "Отзыв"
+      "translations": ["Отзыв", "обзор"]
     },
     {
       "original": "Location",
-      "translation": "Местоположение"
+      "translations": ["Местоположение", "место"]
     },
     {
       "original": "Delivery",
-      "translation": "Доставка"
+      "translations": ["Доставка"]
     },
     {
       "original": "Gender",
-      "translation": "Пол"
+      "translations": ["Пол"]
     },
     {
       "original": "Link",
-      "translation": "Ссылка"
+      "translations": ["Ссылка"]
     },
     {
       "original": "Payment",
-      "translation": "Платеж"
+      "translations": ["Платеж", "оплата", "плата"]
     },
     {
       "original": "Discount",
-      "translation": "Скидка"
+      "translations": ["Скидка"]
     },
     {
       "original": "Tax",
-      "translation": "Налог"
+      "translations": ["Налог", "пошлина"]
     },
     {
       "original": "Duration",
-      "translation": "Продолжительность"
+      "translations": ["Продолжительность", "длительность"]
     },
     {
       "original": "Frequency",
-      "translation": "Частота"
+      "translations": ["Частота"]
     },
     {
       "original": "Attempt",
-      "translation": "Попытка"
+      "translations": ["Попытка"]
     },
     {
       "original": "Value",
-      "translation": "Значение"
+      "translations": ["Значение"]
     },
     {
       "original": "Permission",
-      "translation": "Разрешение"
+      "translations": ["Разрешение"]
     },
     {
       "original": "Message",
-      "translation": "Сообщение"
+      "translations": ["Сообщение"]
     },
     {
       "original": "Supplier",
-      "translation": "Поставщик"
+      "translations": ["Поставщик"]
     }
   ]

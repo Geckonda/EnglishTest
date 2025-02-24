@@ -1,5 +1,5 @@
 let dictionary;
-await fetch('./data.json')
+await fetch('./fl.json')
   .then(response => response.json())
   .then(data => dictionary = data)
   .catch(error => console.error('Ошибка загрузки JSON:', error));
@@ -23,10 +23,12 @@ function shuffleArray(array) {
     return array;
 }
 
-function getCurrentWord(index)
-{
-    return [dictionary[index].original.toLowerCase(), dictionary[index].translation.toLowerCase()];
+function getCurrentWord(index) {
+    const original = dictionary[index].original.toLowerCase();
+    const translations = dictionary[index].translations.map(word => word.toLowerCase());
+    return [original, translations];
 }
+
 function changeWord()
 {
     if(currentIndex < dictionary.length)
@@ -71,7 +73,7 @@ changeWord();
 
 nextBtn.addEventListener('click', () => {
     let userinput = input.value.toLowerCase().trim();
-    if(userinput === currentAnswer)
+    if(currentAnswer.includes(userinput))
         correctAnswers++;
     changeWord();
     input.value = "";
