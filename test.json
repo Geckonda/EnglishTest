@@ -1,0 +1,14 @@
+[
+    {
+      "original": "Patronymic",
+      "translations": ["Отчество"]
+    },
+    {
+      "original": "Location",
+      "translations": ["Местоположение", "место"]
+    },
+    {
+      "original": "Payment",
+      "translations": ["Платеж", "оплата", "плата"]
+    }
+  ]

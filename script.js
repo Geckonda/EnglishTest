@@ -14,6 +14,7 @@ const reusultTable = document.getElementById("result-table");
 const correctAnswersCount = document.getElementById("correct-answers-count");
 const wrongAnswersCount = document.getElementById("wrong-answers-count");
 const mark = document.getElementById("mark");
+const userAnswersContainer = document.getElementById("user-answers");
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -26,7 +27,7 @@ function shuffleArray(array) {
 function getCurrentWord(index) {
     const original = dictionary[index].original.toLowerCase();
     const translations = dictionary[index].translations.map(word => word.toLowerCase());
-    return [original, translations];
+    return [translations, original];
 }
 
 function changeWord()
@@ -38,7 +39,6 @@ function changeWord()
     }
     else{
         showTable();
-        
     }
 }
 
@@ -73,8 +73,13 @@ changeWord();
 
 nextBtn.addEventListener('click', () => {
     let userinput = input.value.toLowerCase().trim();
-    if(currentAnswer.includes(userinput))
+    if (userinput === currentAnswer) {
         correctAnswers++;
+        addWordToTable(currentAnswer, userinput, true);
+    }
+    else{
+        addWordToTable(currentAnswer, userinput, false);
+    }
     changeWord();
     input.value = "";
     input.focus();
@@ -86,5 +91,18 @@ resetBtn.addEventListener('click', () => {
     correctAnswers = 0;
     changeWord();
     reusultTable.style.display = "none";
-
+    userAnswersContainer.innerHTML = "";
 });
+
+
+function addWordToTable(correctWord, userWord, isCorrect)
+{
+    const row = document.createElement("li");
+    row.textContent = `${correctWord} -- ${userWord}`
+    if(isCorrect)
+        row.className = "correct";
+    else
+        row.className = "wrong"
+
+    userAnswersContainer.appendChild(row);
+}

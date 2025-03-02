@@ -92,7 +92,7 @@ h2{
 #result-table{
     display: none;
     width: 300px;
-    height: 300px;
+    height: 400px;
     padding: 10px;
     background: var(--dark-purple);
     position: absolute;
@@ -113,6 +113,19 @@ h2{
     color: var(--light-yellow);
 }
 #wrong-answers-count
+{
+    color: var(--dark-red);
+}
+#user-answers
+{
+    text-align: center;
+    overflow-y: scroll;
+}
+.correct
+{
+    color: var(--light-yellow);
+}
+.wrong
 {
     color: var(--dark-red);
 }
